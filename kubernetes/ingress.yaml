@@ -12,10 +12,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - www.capstonebankapp.com
+    - www.devopscicd.xyz
     secretName: bankapp-tls-secret
   rules:
-  - host: www.capstonebankapp.com
+  - host: devopscicd.xyz
     http:
       paths:
       - path: /
