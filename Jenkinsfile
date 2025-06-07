@@ -15,7 +15,7 @@ pipeline {
                     clusterName: 'capstone-cluster',
                     namespace: 'webapps',
                     restrictKubeConfigAccess: false,
-                    serverUrl: 'https://D133D06C5103AE18A950F2047A8EB7DE.gr7.us-east-1.eks.amazonaws.com'
+                    serverUrl: 'https://EA7E16D489B3410B950F14083635F31D.gr7.ap-south-1.eks.amazonaws.com'
                 ) {
                     sh 'kubectl apply -f kubernetes/Manifest.yaml -n webapps'
                     sh 'kubectl apply -f kubernetes/HPA.yaml'
